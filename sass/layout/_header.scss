@@ -1,0 +1,57 @@
+// HEADER
+
+.header_content {
+  display: flex;
+  //   @include testBorder;
+  margin-top: 13rem;
+  justify-items: flex-start;
+  .hero_motto--wrap {
+    p,
+    h2 {
+      font-family: $font2_display_3d;
+      @include grad_text;
+    // color: $color-white;
+    }
+    .motto_text {
+        font-size: 6rem;
+        margin-left: 3rem;
+    }
+  }
+
+  
+
+  .hero_image-container {
+    position: relative;
+    .hero_image {
+      height: 28rem;
+      z-index: 2;
+      -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.592));
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.591));
+
+      animation: floating 2.5s infinite  cubic-bezier(0.37, 0, 0.63, 1);
+      margin-top: .5rem;
+      margin-left: 5rem;
+    }
+    img {
+      position: absolute;
+    }
+    // @include abs_center  ;
+    right: 0rem;
+    .hero_blob {
+      left: -10rem;
+      top: -10rem;
+        // @include testBorder;
+      height: 45rem;
+      z-index: 1;
+      animation: floating 2.5s infinite  cubic-bezier(0.37, 0, 0.63, 1);
+      animation-delay: .5s;
+      -webkit-filter: drop-shadow(5px 5px 2px rgba(255, 255, 255, 0.55));
+      filter: drop-shadow(5px 5px 1px rgba(255, 255, 255, 0.55));
+    }
+    .hero_blob2 {
+      left: 5rem;
+      top: -8rem;
+      animation-delay: .2s;
+    }
+  }
+}

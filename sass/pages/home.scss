@@ -1,0 +1,17 @@
+// SECTIONS 
+
+
+.section {
+  height: 100vh;
+  
+}
+
+/* HOME PAGE */
+.home_page_section {
+  background: $color-white;
+  border: $base_border;
+  padding: 2rem;
+  z-index: -2;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}

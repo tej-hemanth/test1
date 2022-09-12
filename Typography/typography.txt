@@ -1,0 +1,6 @@
+Color-primary: #2c4fb1;
+color-primary_dark: #090955;
+color-primary_light: #279cd8;
+Font-family_1: Montserrat;
+Smooth_card_transition:
+transition: transform 0.4s cubic-bezier(0.5, 1, 0.89, 1);

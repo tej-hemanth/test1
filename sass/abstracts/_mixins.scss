@@ -1,0 +1,28 @@
+@mixin flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin abs_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin testBorder {
+    border: 1px solid red;
+}
+
+@mixin grad_text{
+    background: linear-gradient(
+    90deg,
+    #4ab3e7d7,
+    #2b5bdfd5,
+    #40b48fc9,
+    #22d1ecd1
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}

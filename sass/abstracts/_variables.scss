@@ -1,0 +1,28 @@
+
+// COLORS
+
+$default-gradient: linear-gradient(-45deg, #158dca, #1c42a9, #090955);
+$default-gradient_light: linear-gradient(
+  90deg,
+  #4ab3e7d7,
+  #2b5bdfd5,
+  #40b48fc9,
+  #22d1ecd1
+);
+$color-primary: #2c4fb1;
+$color-primary_dark: #090955;
+$color-primary_light: #279cd8;
+
+$color-white: #fff;
+$color-white-transparent: rgba(255, 255, 255, 0.9);
+$color-black: #000;
+
+/* FONT */
+$default-font-size: 1.6rem;
+$default-font: "Montserrat", sans-serif;
+$font1_cursive: "Lobster Two", cursive;
+$font2_display_3d: "Rampart One", cursive;
+$font3_display_max: "Abril Fatface", cursive;
+
+/* BASE BORDER */
+$base_border: 1px solid red;
